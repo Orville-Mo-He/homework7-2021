@@ -24,6 +24,8 @@ window.addEventListener("load", function() {
 document.querySelector("#play").addEventListener("click", function() {
 	console.log("Play Video");
 	video.play()
+	var slider_val = document.getElementById('slider').value;
+	document.getElementById('volume').innerHTML =`${slider_val}%`;
 });
 
 document.querySelector("#pause").addEventListener("click", function() {
