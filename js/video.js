@@ -1,5 +1,5 @@
 var video = document.querySelector("#player1");
-document.getElementById('volume').innerHTML ='100%';
+// document.getElementById('volume').innerHTML ='100%';
 
 
 // var val = document.getElementById('slider').value;
